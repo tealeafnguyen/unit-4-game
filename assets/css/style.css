@@ -1,0 +1,63 @@
+    
+    .col-2-md {
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+
+    .img {
+
+        height: 100px;
+        width: 100px
+    }
+
+    .pcImg {
+        height: 100px;
+        width: 100px
+    }
+
+
+    .battleZone {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 400px;
+        background-size: cover;
+        transform: translateX(-50%) translateY(-50%);
+        pointer-events: none;
+    }
+
+    .enemy {
+        padding-top: 50px;
+        height: 220px;
+        width: 100px;
+        font-family: 'Luckiest Guy', cursive;
+        color:tomato;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    .playerStats{
+        font-family: 'Luckiest Guy', cursive;
+        color:deepskyblue;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    .pcBox {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: bisque;
+    }
+
+    .back {
+        font-family: 'Luckiest Guy', cursive;
+        color:orange;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    
+    body {
+        background-image: url("../images/galaxy.jpg");
+        background-size: cover;
+
+    }
